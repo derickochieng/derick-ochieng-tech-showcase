@@ -31,11 +31,11 @@ export const About = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex items-center gap-3">
                   <MapPin className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">Kisumu, Kenya</span>
+                  <span className="text-muted-foreground">Mombasa, Kenya</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <Calendar className="h-5 w-5 text-primary" />
-                  <span className="text-muted-foreground">Available for Remote Work</span>
+                  <span className="text-muted-foreground">Full-time Web Developer</span>
                 </div>
                 <div className="flex items-center gap-3">
                   <GraduationCap className="h-5 w-5 text-primary" />

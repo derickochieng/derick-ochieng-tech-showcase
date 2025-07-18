@@ -2,8 +2,11 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import { Button } from "@/components/ui/button";
 import { Badge } from "@/components/ui/badge";
 import { ExternalLink, Github, Database, ShoppingCart, Dumbbell, Palette, Building2, Users, CreditCard, Newspaper, Activity } from "lucide-react";
-import webDevImage from "@/assets/web-dev-illustration.jpg";
-import backendImage from "@/assets/backend-illustration.jpg";
+import fairDealProject from "@/assets/fairdeal-project.jpg";
+import fitnessProject from "@/assets/fitness-project.jpg";
+import fashionProject from "@/assets/fashion-project.jpg";
+import corporateProject from "@/assets/corporate-project.jpg";
+import crmProject from "@/assets/crm-project.jpg";
 
 export const Projects = () => {
   const projects = [
@@ -14,7 +17,7 @@ export const Projects = () => {
       link: "https://fairdealfurniture.co.ke/",
       github: null,
       icon: ShoppingCart,
-      image: webDevImage,
+      image: fairDealProject,
       category: "E-commerce"
     },
     {
@@ -24,7 +27,7 @@ export const Projects = () => {
       link: "https://mrandmrsfitnesscenter.co.ke/",
       github: null,
       icon: Dumbbell,
-      image: webDevImage,
+      image: fitnessProject,
       category: "Business Website"
     },
     {
@@ -34,7 +37,7 @@ export const Projects = () => {
       link: "https://ximivogue.co.ke/",
       github: null,
       icon: Palette,
-      image: webDevImage,
+      image: fashionProject,
       category: "E-commerce"
     },
     {
@@ -44,7 +47,7 @@ export const Projects = () => {
       link: "https://corporatebay.netlify.app/",
       github: "https://github.com/derickochieng",
       icon: Building2,
-      image: webDevImage,
+      image: corporateProject,
       category: "Corporate"
     },
     {
@@ -54,7 +57,7 @@ export const Projects = () => {
       link: "https://juhudi.netlify.app/",
       github: "https://github.com/derickochieng",
       icon: Users,
-      image: webDevImage,
+      image: corporateProject,
       category: "Community Platform"
     },
     {
@@ -64,7 +67,7 @@ export const Projects = () => {
       link: "https://crm.fairdealfurniture.co.ke/",
       github: null,
       icon: Database,
-      image: backendImage,
+      image: crmProject,
       category: "CRM/Enterprise"
     },
     {
@@ -74,7 +77,7 @@ export const Projects = () => {
       link: "https://pamkenya.netlify.app/",
       github: "https://github.com/derickochieng",
       icon: CreditCard,
-      image: webDevImage,
+      image: corporateProject,
       category: "Association"
     },
     {
@@ -84,7 +87,7 @@ export const Projects = () => {
       link: "https://didackmedia.com/",
       github: null,
       icon: Newspaper,
-      image: webDevImage,
+      image: corporateProject,
       category: "Media Agency"
     },
     {
@@ -94,7 +97,7 @@ export const Projects = () => {
       link: "https://sote2022.org/",
       github: null,
       icon: Activity,
-      image: webDevImage,
+      image: corporateProject,
       category: "Event Platform"
     }
   ];
