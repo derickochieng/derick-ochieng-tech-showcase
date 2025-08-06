@@ -79,6 +79,14 @@ export const Navigation = () => {
           {/* Desktop Social Links */}
           <div className="hidden md:flex items-center space-x-2">
             <Button
+              variant="hero"
+              size="sm"
+              onClick={() => window.location.href = '/print-on-demand'}
+              className="mr-4"
+            >
+              POD Platform
+            </Button>
+            <Button
               variant="ghost"
               size="icon"
               onClick={() => window.open('https://github.com/derickochieng', '_blank')}
@@ -134,6 +142,16 @@ export const Navigation = () => {
                   {item.name}
                 </a>
               ))}
+              
+              {/* POD Platform Button */}
+              <Button
+                variant="hero"
+                size="sm"
+                onClick={() => window.location.href = '/print-on-demand'}
+                className="w-full mb-2"
+              >
+                POD Platform
+              </Button>
               
               {/* Mobile Social Links */}
               <div className="flex items-center justify-center space-x-2 pt-4 border-t border-border">
