@@ -3,6 +3,12 @@ import { Badge } from "@/components/ui/badge";
 import { Heart, ShoppingCart } from "lucide-react";
 import { Link } from "react-router-dom";
 
+// Import mockup images
+import tshirtBlack from "@/assets/mockups/tshirt-black.jpg";
+import hoodieNavy from "@/assets/mockups/hoodie-navy.jpg";
+import toteBagNatural from "@/assets/mockups/tote-bag-natural.jpg";
+import capBlack from "@/assets/mockups/cap-black.jpg";
+
 export const FeaturedProducts = () => {
   const products = [
     {
@@ -10,7 +16,7 @@ export const FeaturedProducts = () => {
       name: "Classic Cotton T-Shirt",
       price: "KSH 1,200",
       originalPrice: "KSH 1,500",
-      image: "/placeholder.svg",
+      image: tshirtBlack,
       category: "T-Shirts",
       colors: ["Black", "White", "Navy", "Red"],
       isPopular: true
@@ -20,7 +26,7 @@ export const FeaturedProducts = () => {
       name: "Premium Hoodie",
       price: "KSH 2,800",
       originalPrice: "KSH 3,200",
-      image: "/placeholder.svg",
+      image: hoodieNavy,
       category: "Hoodies",
       colors: ["Black", "Grey", "Navy"],
       isPopular: false
@@ -30,7 +36,7 @@ export const FeaturedProducts = () => {
       name: "Canvas Tote Bag",
       price: "KSH 800",
       originalPrice: "KSH 1,000",
-      image: "/placeholder.svg",
+      image: toteBagNatural,
       category: "Bags",
       colors: ["Natural", "Black", "Navy"],
       isPopular: true
@@ -40,7 +46,7 @@ export const FeaturedProducts = () => {
       name: "Baseball Cap",
       price: "KSH 1,000",
       originalPrice: "KSH 1,300",
-      image: "/placeholder.svg",
+      image: capBlack,
       category: "Accessories",
       colors: ["Black", "White", "Red", "Blue"],
       isPopular: false

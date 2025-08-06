@@ -5,6 +5,14 @@ import { Card } from "@/components/ui/card";
 import { Heart, ShoppingCart, Filter } from "lucide-react";
 import { Link } from "react-router-dom";
 
+// Import mockup images
+import tshirtBlack from "@/assets/mockups/tshirt-black.jpg";
+import tshirtWhite from "@/assets/mockups/tshirt-white.jpg";
+import hoodieNavy from "@/assets/mockups/hoodie-navy.jpg";
+import toteBagNatural from "@/assets/mockups/tote-bag-natural.jpg";
+import capBlack from "@/assets/mockups/cap-black.jpg";
+import longsleeveGrey from "@/assets/mockups/longsleeve-grey.jpg";
+
 export const ProductGrid = () => {
   const [sortBy, setSortBy] = useState("popular");
 
@@ -15,7 +23,7 @@ export const ProductGrid = () => {
       category: "T-Shirts",
       price: "KSH 1,200",
       originalPrice: "KSH 1,500",
-      image: "/placeholder.svg",
+      image: tshirtBlack,
       colors: ["Black", "White", "Navy", "Red", "Grey"],
       sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       isPopular: true,
@@ -28,7 +36,7 @@ export const ProductGrid = () => {
       category: "Hoodies",
       price: "KSH 2,800",
       originalPrice: "KSH 3,200",
-      image: "/placeholder.svg",
+      image: hoodieNavy,
       colors: ["Black", "Grey", "Navy"],
       sizes: ["S", "M", "L", "XL", "XXL"],
       isPopular: false,
@@ -41,7 +49,7 @@ export const ProductGrid = () => {
       category: "Bags",
       price: "KSH 800",
       originalPrice: "KSH 1,000",
-      image: "/placeholder.svg",
+      image: toteBagNatural,
       colors: ["Natural", "Black", "Navy"],
       sizes: ["One Size"],
       isPopular: true,
@@ -54,7 +62,7 @@ export const ProductGrid = () => {
       category: "Accessories",
       price: "KSH 1,000",
       originalPrice: "KSH 1,300",
-      image: "/placeholder.svg",
+      image: capBlack,
       colors: ["Black", "White", "Red", "Blue"],
       sizes: ["One Size"],
       isPopular: false,
@@ -67,7 +75,7 @@ export const ProductGrid = () => {
       category: "T-Shirts",
       price: "KSH 1,500",
       originalPrice: "KSH 1,800",
-      image: "/placeholder.svg",
+      image: longsleeveGrey,
       colors: ["Black", "White", "Grey", "Navy"],
       sizes: ["XS", "S", "M", "L", "XL"],
       isPopular: false,
@@ -76,13 +84,13 @@ export const ProductGrid = () => {
     },
     {
       id: 6,
-      name: "Zip-up Hoodie",
-      category: "Hoodies",
-      price: "KSH 3,200",
-      originalPrice: "KSH 3,800",
-      image: "/placeholder.svg",
-      colors: ["Black", "Grey", "Navy", "Red"],
-      sizes: ["S", "M", "L", "XL", "XXL"],
+      name: "Cotton T-Shirt (White)",
+      category: "T-Shirts",
+      price: "KSH 1,200",
+      originalPrice: "KSH 1,500",
+      image: tshirtWhite,
+      colors: ["White", "Black", "Navy", "Red"],
+      sizes: ["XS", "S", "M", "L", "XL", "XXL"],
       isPopular: true,
       isBestseller: false,
       rating: 4.8
